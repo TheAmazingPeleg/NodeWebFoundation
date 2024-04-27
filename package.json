@@ -1,0 +1,27 @@
+{
+  "name": "nodewebfoundation",
+  "version": "1.0.0",
+  "description": "Practical Website Foundations: A Web Package for Streamlined Development",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js",
+    "debug": "ndb app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAmazingPeleg/NodeWebFoundation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheAmazingPeleg/NodeWebFoundation/issues"
+  },
+  "homepage": "https://github.com/TheAmazingPeleg/NodeWebFoundation#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ndb": "^1.1.5",
+    "nodemon": "^3.1.0"
+  }
+}
