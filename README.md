@@ -20,3 +20,13 @@ This package provides comprehensive error handling mechanisms for Node.js applic
 
 5. Exceptions and Rejections:
    Automatically handle exceptions and promise rejections, gracefully terminating the process and sending appropriate messages to clients.
+
+# Security Handling Package
+
+This package provide securities agains several types of attacks:
+
+1. Helmet - Secured HTTP
+2. Rate Limiter - Preventing Brute Force Attacks
+3. Limiting the body size of the request
+4. Data sanitization against NoSQL query injection (Operator Injection)
+5. Data sanitization against XSS (HTML Tags Injection)
